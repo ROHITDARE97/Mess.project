@@ -1,0 +1,148 @@
+/* Reset some default styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #e84a5f;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem 1rem;
+}
+
+/* Search and filter styling */
+.search-filter {
+    margin: 0 auto 2rem auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#search-bar {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#meal-time {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 150px;
+}
+
+/* Menu list styling */
+.menu-list {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+    margin: 0 0 0.5rem;
+}
+
+.menu-item p {
+    margin: 0;
+}
+
+.menu-item:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Footer styling */
+footer {
+    background-color: #e84a5f;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Intro section for home page */
+.intro {
+    max-width: 600px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.enter-button {
+    display: inline-block;
+    background-color: #f5a623;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.enter-button:hover {
+    background-color: #e88e00;
+}
+/* Admin page styles */
+#login-section, #admin-section {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#login-form input, #admin-form input, #admin-form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#login-form button, #admin-form button {
+    background-color: #e84a5f;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#login-form button:hover, #admin-form button:hover {
+    background-color: #d73a4a;
+}
